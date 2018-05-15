@@ -2,7 +2,7 @@ This application was written in response to a blog post [here](http://kristitty.
 
 I offer this code not as an argument for or against the existance of God, or to malign the author of the original article. The stated intent of the original project was to see what kind of text could be discerned from a DNA sample. My goal was to show that there is no inherent textual representation with a DNA sequence, and that arbitrary textual output can be produced using the same principles as a cryptographic one-time pad. In fact, that is exactly how I am treating the DNA data. The "character_encoding.dat" file is nothing more than the encrypted version of the complete works of William Shakespeare, obtained via [Project Gutenberg](http://www.gutenberg.org/files/100/100-0.txt) and used with permission. The DNA source file was the same as that used by the original author,  Homo_sapiens.GRCh38.dna.chromosome.5.fa, which can be retrieved [here](ftp://ftp.ensembl.org/pub/release-92/fasta/homo_sapiens/dna/).
 
-It was an interesting exercise. I hope someone else may find it useful.
+It was an interesting exercise. I hope someone else may find it useful. It's released under the MIT license, as described elsewhere in this repository.
 
 To execute:
 
